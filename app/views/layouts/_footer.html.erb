@@ -1,13 +1,13 @@
 <footer class="footer" >
   <small>
-     The <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a>
-     by <a href="#">Mike Hartl</a>
+     The <a href="http://www.railstutorial.org" target="_blank">Ruby on Rails Tutorial</a>
+     by <a href="http://www.railstutorial.org" target="_blank">Mike Hartl</a>
   </small>
   <nav>
     <ul>
-      <li><%= link_to "About", "#" %></li>
-      <li><%= link_to "Contact", "#" %></li>
-      <li><%= link_to "New", "http://www.railstutorial.org" %></li>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
+      <li><%= link_to "News", "http://www.railstutorial.org", :target => "_blank" %></li>
     </ul>
   </nav>
 </footer>
